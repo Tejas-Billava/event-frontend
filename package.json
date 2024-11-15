@@ -2,7 +2,8 @@
   "name": "myfirstapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://event-frontend-nasq.onrender.com/event-frontend",
+  "homepage": "https://event-frontend-nasq.onrender.com/Event",
+  
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
     "@fortawesome/fontawesome-free": "^6.6.0",
