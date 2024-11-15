@@ -120,7 +120,7 @@ function App() {
 
   const handleSignup = async (username, email, password) => {
     try {
-      const response = await fetch("http://localhost:5000/api/auth/signup", {
+      const response = await fetch("https://event-backend-lj7u.onrender.com/api/auth/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -152,7 +152,7 @@ function App() {
 
   const handleLogin = async (email, password) => {
     try {
-      const response = await fetch("http://localhost:5000/api/auth/login", {
+      const response = await fetch("https://event-backend-lj7u.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -220,7 +220,7 @@ function App() {
               className="log-button"
               onClick={() =>
                 (window.location.href =
-                  "http://localhost:5000/api/auth/googlelogin")
+                  "https://event-backend-lj7u.onrender.com/api/auth/googlelogin")
               }
             >
               Login
