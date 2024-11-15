@@ -31,7 +31,7 @@ const EventChecklist = () => {
     event.preventDefault();
     try {
       await axios.post(
-        "http://localhost:5000/api/checklist/submitChecklist",
+        "https://event-backend-lj7u.onrender.com/api/checklist/submitChecklist",
         formData
       );
       alert("Checklist submitted successfully!");
