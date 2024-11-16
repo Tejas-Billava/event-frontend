@@ -7,7 +7,7 @@ const WeddingPage = () => {
   useEffect(() => {
     const fetchVenues = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/venues");
+        const response = await fetch("https://event-backend-lj7u.onrender.com/api/venues");
         const data = await response.json();
         setVenues(data);
       } catch (error) {
