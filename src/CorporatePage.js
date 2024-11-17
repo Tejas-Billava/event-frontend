@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// import venue1 from "./images/Conference.jpg";
+import venue1 from "./images/Conference.jpeg";
 import venue2 from "./images/HotelMeet.jpg";
 import venue3 from "./images/Community.jpg";
 
@@ -18,7 +18,7 @@ const CorporatePage = () => {
       <div className="corporate-images">
         {/* Conference Room */}
         <div className="corporate-item">
-          {/* <img src={venue1} alt="Conference Room" className="corporate-image" /> */}
+          {<img src={venue1} alt="Conference Room" className="corporate-image" /> }
           <h2 className="corporate-name">Conference Room</h2>
           <p className="venue-overview">
             Equipped with state-of-the-art facilities, our conference rooms are
