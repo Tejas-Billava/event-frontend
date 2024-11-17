@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 import venue1 from "./images/Banquete.webp";
 import venue2 from "./images/Outdoor.jpg";
-// import venue3 from "./images/ClubParty.jpg";
+import venue3 from "./images/ClubParty.jpg";
 
 const BirthdayPage = () => {
   return (
@@ -85,7 +85,7 @@ const BirthdayPage = () => {
 
         {/* Club Party */}
         <div className="venue-item">
-          {/* <img src={venue3} alt="Club Party" className="venue-image" /> */}
+          {<img src={venue3} alt="Club Party" className="venue-image" /> }
           <h2 className="venue-name">Club Party</h2>
           <p className="venue-overview">
             Dance the night away with our vibrant club party venue, complete
